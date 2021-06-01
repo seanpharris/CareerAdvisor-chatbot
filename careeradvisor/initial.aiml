@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+	<category>
+        <pattern>*</pattern>
+        <template>Hello</template>
+    </category>
+	
+	<category>
+	    <pattern>Hi</pattern>
+	   <template>
+	        Greeting!<delay>3</delay>
+	        We are going to look for a career requiring a BS in Computer Science that fit you based on your interest<delay>4</delay>
+	        I will list some topics and then you tell me the one that interest you most<delay>4</delay>
+	            <reply>
+	                <text>Creation</text>
+	                <postback>Creation</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Management</text>
+	                <postback>Management</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Research</text>
+	                <postback>Research</postback>
+	            </reply>
+	            
+	    </template>
+    </category>
+    <category>
+	    <pattern>Hello</pattern>
+	   <template>
+	        Well hello there.<delay>3</delay>
+	        We are going to look for a career requiring a BS in Computer Science that fit you based on your interest<delay>4</delay>
+	        I will list some topics and then you tell me the one that interest you most<delay>4</delay>
+	            <reply>
+	                <text>Creation</text>
+	                <postback>Creation</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Management</text>
+	                <postback>Management</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Research</text>
+	                <postback>Research</postback>
+	            </reply>
+	            
+	    </template>
+    </category>
+    <category>
+	    <pattern>Hey</pattern>
+	   <template>
+	        Well hello there.<delay>3</delay>
+	        We are going to look for a career requiring a BS in Computer Science that fit you based on your interest<delay>4</delay>
+	        I will list some topics and then you tell me the one that interest you most<delay>4</delay>
+	            <reply>
+	                <text>Creation</text>
+	                <postback>Creation</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Management</text>
+	                <postback>Management</postback>
+	            </reply>
+	            
+	            <reply>
+	                <text>Research</text>
+	                <postback>Research</postback>
+	            </reply>
+	    </template>
+    </category>
+    
+
+
+    
+    
+    
+    
+    
+    
+    <category>
+        <pattern>Creation</pattern>
+        <template>
+            Great! Creation recquires a wonderful mind.<delay>4</delay> 
+            Now tell me, do you prefer to focus more on the user or would you like to make a tool<delay>4</delay>
+            <reply>
+                <text>User</text>
+                <postback>User</postback>
+            </reply>
+            
+            <reply>
+                <text>Tool</text>
+                <postback>Tool</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>User</pattern>
+        <template>
+            Okay, since the user is your preferred focus, what language would you prefer to work with between HTML or Java<delay>4</delay> 
+            <reply>
+                <text>HTML</text>
+                <postback>HTML</postback>
+            </reply>
+            
+            <reply>
+                <text>Java</text>
+                <postback>Java</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Tool</pattern>
+        <template>
+            Okay, you would prefer to create a tool. Do you like machine learning<delay>4</delay> 
+            <reply>
+                <text>Yes</text>
+                <postback>Yes</postback>
+            </reply>
+            
+            <reply>
+                <text>No</text>
+                <postback>No</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HTML</pattern>
+        <template>
+            I believe you would make a great web developer!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Java</pattern>
+        <template>
+            I believe you would make a great Software Engineer!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Yes</pattern>
+        <template>
+            I believe you would be interested in being a AI Engineer!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>
+            I believe you would be interested in being a Software Engineer!
+        </template>
+    </category>
+    
+    
+    
+    
+    
+    
+    
+     <category>
+        <pattern>Management</pattern>
+        <template>
+            Great! Managing within technology requires attention to detail.<delay>4</delay> 
+            Now tell me, do you prefer to focus more on implementing solutions or trend analysis<delay>4</delay>
+            <reply>
+                <text>implementing solutions</text>
+                <postback>implementing solutions</postback>
+            </reply>
+            
+            <reply>
+                <text>trend analysis</text>
+                <postback>trend analysis</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>implementing solutions</pattern>
+        <template>
+            Awesome!<delay>4</delay> 
+            Now tell me what language your prefer to work with between SQL or Java<delay>4</delay>
+            <reply>
+                <text>SQL</text>
+                <postback>SQL</postback>
+            </reply>
+            
+            <reply>
+                <text>Java</text>
+                <postback>Java</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>trend analysis</pattern>
+        <template>
+            Awesome!<delay>4</delay> 
+            Would you rather work within networks or databases<delay>4</delay>
+            <reply>
+                <text>networks</text>
+                <postback>networks</postback>
+            </reply>
+            
+            <reply>
+                <text>databases</text>
+                <postback>databases</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SQL</pattern>
+        <template>
+           I believe you would be interested in Database management
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Java</pattern>
+        <template>
+           I believe you would be interested in Software Development
+        </template>
+    </category>
+    
+    <category>
+        <pattern>networks</pattern>
+        <template>
+           I believe you would be a great Information Analyst
+        </template>
+    </category>
+    
+    <category>
+        <pattern>databases</pattern>
+        <template>
+           I believe you would be interested in Database management
+        </template>
+    </category>
+    
+    
+    
+    
+    
+    
+    <category>
+        <pattern>Research</pattern>
+        <template>
+            Great! Research is what drives new technologies.<delay>4</delay> 
+            Now tell me, what do you think about big data<delay>2</delay>
+            <reply>
+                <text>dislike</text>
+                <postback>dislike</postback>
+            </reply>
+            
+            <reply>
+                <text>like</text>
+                <postback>like</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>dislike</pattern>
+        <template>
+            That is understandable.<delay>4</delay> 
+            Are you security minded<delay>2</delay>
+            <reply>
+                <text>Security minded</text>
+                <postback>Security minded</postback>
+            </reply>
+            
+            <reply>
+                <text>Not security minded</text>
+                <postback>Not security minded</postback>
+            </reply>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>Security minded</pattern>
+        <template>
+            You might be interested in being a Information Security Analyst
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Not security minded</pattern>
+        <template>
+            You might be interested in being a Software Engineer
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>like</pattern>
+        <template>
+            Great! Big data is quite the concept.<delay>4</delay> 
+            Do you enjoy difficult algorithims<delay>2</delay>
+            <reply>
+                <text>Love them</text>
+                <postback>Love them</postback>
+            </reply>
+            
+            <reply>
+                <text>Hate them</text>
+                <postback>Hate them</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Love them</pattern>
+        <template>
+            You might be interested in being a AI Engineer
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Hate them</pattern>
+        <template>
+            You might be interested in being a Software Engineer
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            You're welcome! Im glad I could help.
+        </template>
+    </category>
+    
+     <category>
+        <pattern>THANKS</pattern>
+        <template>
+            You're welcome! Im glad I could help.
+        </template>
+    </category>
+    
+    
+    
+</aiml>
